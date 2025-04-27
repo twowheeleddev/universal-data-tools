@@ -1,0 +1,34 @@
+{
+  "name": "universal-data-tools",
+  "version": "1.0.0",
+  "description": "universal, persistent, immutable Trie and Rate Limiter in JavaScript",
+  "main": "lib/universalTrie.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "keywords": [
+    "trie",
+    "rate limiter",
+    "immutable",
+    "persistent",
+    "data structure",
+    "functional programming",
+    "middleware",
+    "nodejs",
+    "jsdoc"
+  ],
+  "author": "Douglas Green",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "immutable": "^5.1.1",
+    "jsdoc": "^4.0.4"
+  },
+  "dependencies": {
+    "docdash": "^2.0.2"
+  }
+}

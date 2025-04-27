@@ -1,0 +1,11 @@
+{
+  "source": {
+    "include": ["lib"],
+    "includePattern": ".js$"
+  },
+  "opts": {
+    "destination": "./docs",
+    "recurse": true,
+    "template": "node_modules/docdash"
+  }
+}
